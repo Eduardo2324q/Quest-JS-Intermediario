@@ -33,6 +33,7 @@ botaoEnviar.addEventListener('click', (event) => {
             mensagemErro.textContent = 'campo obrigatório';
             mensagemErro.style.color = 'red';
             mensagemErro.style.margin = '5px 20px 0 20px';
+            mensagemErro.style.fontSize = '8px';
             mensagemErro.style.display = 'block';
             mensagemErro.classList.add('erro');
 
