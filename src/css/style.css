@@ -68,3 +68,14 @@ html {
     border-radius: 5px;
     padding: 10px;
 }
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        margin-top: 20px;
+    }
+} 
