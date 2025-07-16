@@ -1,0 +1,71 @@
+html {
+    background: linear-gradient(to bottom, #f770a2, #c887dc, #7faaff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    padding: 0 20px;
+}
+
+.texto {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.texto h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    color: #fff;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 400px;
+    width: 350px;
+}
+
+.formulario .nome,
+.formulario .email,
+.formulario .telefone,
+.formulario .mensagem{
+    margin: 20px 20px 0 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.formulario .mensagem {
+    height: 100px;
+    display: flex;
+}
+
+.formulario p {
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.formulario .btn-enviar {
+    background-color: #3ccc87;
+    color: #fff;
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding: 10px;
+}

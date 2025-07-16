@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Quest JS - intermediário</title>
 </head>
+
 <body>
-    <main>
-        <div>
-            <div>
-                <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
-                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
-            </div>
-            <div>
-            
-                <input type="text" placeholder="Nome Completo *">
-                <input type="email" placeholder="Email *">
-                <input type="text" placeholder="Telefone *">
-                <input type="text" placeholder="Mensagem *">
-                <p>*campos obrigatórios</p>
-                <button>Enviar</button>
-            </div>
+    <main class="container">
+        <div class="texto">
+            <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            <p>
+                caso tenha ficado com qualquer dúvida<br>
+                basta nos mandar uma mensagem e<br>
+                entraremos em contato em menos de 24h.
+              </p>
+        </div>
+        <div class="formulario">
+            <input type="text" placeholder="Nome Completo *" class="nome">
+            <input type="email" placeholder="Email *" class="email">
+            <input type="text" placeholder="Telefone *" class="telefone">
+            <textarea placeholder="Mensagem *" class="mensagem"></textarea>
+            <p>*campos obrigatórios </p>
+            <button class="btn-enviar">Enviar</button>
         </div>
     </main>
 </body>
+
 </html>
